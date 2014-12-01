@@ -1,3 +1,5 @@
+This little program for checking the NIC linked status in linux and OSX which I've tested already.
+
 Linux
 ====
 
