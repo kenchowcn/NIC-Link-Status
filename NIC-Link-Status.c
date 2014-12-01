@@ -1,3 +1,7 @@
+/*
+ * 2014-12-1:build by ken<http://kenchowcn.com>
+ */
+
 #include<stdio.h>
 #include<unistd.h>
 
