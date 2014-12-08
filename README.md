@@ -1,4 +1,4 @@
-This little program for checking the NIC linked status in linux and OSX which I've tested already.
+This little program for checking the NIC linked status in linux and OSX which I've tested already, and this is a extremely simple via popen to get the string that difference between linked and unlinked, another way is using SIOCGMIIREG via ioctl to check the MII data strcut.
 
 Linux
 ====
