@@ -26,6 +26,8 @@ int nic_link_status(char *if_name, char *linked_field)
 
 	if (0 < fread(buff, sizeof(char), sizeof(buff)-1, fp))
 		status = 1; /* linked */
+	
+	fclose(fp);
 
 	return status;
 }
