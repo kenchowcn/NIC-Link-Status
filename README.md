@@ -27,7 +27,7 @@ eth0      Link encap:Ethernet  HWaddr 74:l4:35:2d:8f:lb
           RX bytes:399268030 (399.2 MB)  TX bytes:83955061 (83.9 MB)          
 </pre>
 
-The difference context is the RUNNING.
+The RUNNING exists in netwoking well, not exist in networking unused.
 
 Mac OSX
 ===
@@ -50,6 +50,6 @@ en0: flags=8823<UP,BROADCAST,SMART,SIMPLEX,MULTICAST> mtu 1500
 	status: inactive
 </pre>
 
-Obviously, status are different.
+Obviously, status field is different between wifi on and wifi off.
 
 So, that's write a function to check the status when we need.
